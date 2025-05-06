@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en" class="dark" id="htmlTag">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="Image/favicon.png" type="image/x-icon">
+  <title>Assignment</title>
+</head>
+<body class="bg-[#FAFAFA] dark:bg-900">
+  <!--Header section -->
+  <header class="bg-white dark:bg-[#181C14]">
+    <nav
+      class="container mx-auto relative flex items-center justify-between sm:h-10 md:justify-center py-9 px-4 mt-2 dark:bg-[#181C14]">
+      <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
+        <div class="flex items-center justify-between w-full md:w-auto">
+          <a href="" aria-label="Home">
+            <img src="/Logo1.png" alt="Logo" class="transition-all duration-300 cursor-pointer:scal">
+          </a>
+          <div class="-mr-2 flex items-center md:hidden">
+            <button type="button transition-all duration-300 cursor-pointer:scal" id="main-menu"
+              aria-label="Main menu" aria-haspopup="true"
+              class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
+              <svg stroke="currentColor" fill="none" viewBox="0 0 24 24" class="h-6 w-6">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                </path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="hidden md:flex md:space-x-10 transition-all duration-300 cursor-pointer:scal">
+        <a href="#features"
+          class="font-medium text-gray-500 hover:text-[#F44335] hover:underline hover:decoration-[#f44335]  ease-in-out dark:text-white transition-all duration-300 cursor-pointer:scal hover:scale-105">Home</a>
+        <a href="#pricing"
+          class="font-medium text-gray-500 hover:text-[#F44335] hover:underline hover:decoration-[#f44335] transition duration-150 hover:scale-105 ease-in-out dark:text-white">About</a>
+        <a href="/blog"
+          class="font-medium text-[#F44335] hover:text-[#F44335] transition duration-150 ease-in-out hover:underline hover:scale-105 hover:decoration-[#f44335] ">Upskill</a>
+        <a href=""
+          class="font-medium hover:underline hover:decoration-[#f44335] text-gray-500 hover:text-[#F44335] hover:scale-105 transition duration-150 ease-in-out dark:text-white">Contact
+          us</a>
+      </div>
+      <div class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0 gap-3">
+        <span class="inline-flex rounded-md shadow ml-2 gap-4">
+          <a href="#">
+            <button
+              class="bg-[#F44335] md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md text-white font-semibold hover:bg-[#C3352A] transition hover:scale-105 hover:translate-x-1">Personalize
+              News
+            </button>
+          </a>
+        </span>
+        <p> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor"
+          class="size-8 dark:stroke-white transition hover:scale-105 hover:translate-y-1 dark:bg-[#181C14] ">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+        </svg></p>
+      </div>
+    </nav>
+  </header>
+
+  <!--Hero Section-->
+  <section  id="home" class="py-5 bg-[#FAFAFA] dark:bg-[#181C14]">
+    <div class="container flex flex-wrap items-center justify-center mx-auto mt-10 md:px-12 md:flex-row">
+      <div class="mb-14 lg:mb-0 lg:w-1/2">
+        <h3 class="text-bold lg:text-left font-black transition-all duration-300 cursor-pointer:scal dark:text-white">Discover <span class="text-[#F44335]">-</span> Interact <span class="text-[#F44335]">-</span> Engage </h3>
+        <div class="container mx-auto md:mx-0">
+          <h1 class="py-3 my-1 mb-4 text-4xl md:text-6xl font-black sm:text-2xl font-sans text-center md:text-left dark:text-white">
+            Google <br>
+            <span class="text-[#F44335] underline">IT Support</span> <br>Certificate
+          </h1>
+        </div>
+        <p class="font-inter max-w-xl my-3 text-center text-[#072125] lg:text-left lg:max-w-md dark:text-white">This is your path to a career in IT. In this program, you’ll learn in- <br>
+          demand skills with no degree or experience required. </p>
+       
+        <!--Numbers-->
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 mb-8 mt-10">
+          <div class="text-2xl sm:text-3xl">
+            <p class="text-[#00FF84]">438</p>
+            <p class="text-sm text-[#2D3142] dark:text-[#ffff]">Videos</p>
+          </div>
+          <div class="text-2xl sm:text-3xl">
+            <p class="text-[#00FF84]">151</p>
+            <p class="text-sm text-[#2D3142] dark:text-[#ffff]">Readings</p>
+          </div>
+          <div class="text-2xl sm:text-3xl">
+            <p class="text-[#00FF84]">108</p>
+            <p class="text-sm text-[#2D3142] dark:text-[#ffff]">Quizzes</p>
+          </div>
+          <div class="text-2xl sm:text-3xl">
+            <p class="text-[#00FF84]">24</p>
+            <p class="text-sm text-[#2D3142] dark:text-[#ffff]"> Exercises</p>
+          </div>
+          <div class="text-2xl sm:text-3xl">
+            <p class="text-[#00FF84]">4</p>
+            <p class="text-sm text-[#2D3142] dark:text-[#ffff]">Assigments </p>
+          </div>  
+        </div>
+        <!--Buttons-->
+        <div>
+          <button class="text-white bg-[#F44335] font-medium rounded-lg text-md px-8 py-4 text-center hover:bg-[#F44335] hover:drop-shadow-md  ease-in-out transition hover:scale-105 hover:translate-y-1 cursor-pointer:scal">
+            Sign up
+          </button>
+          <button type="button"
+              class="text-gray-900 bg-gray-200 font-medium rounded-lg px-5 py-4 text-center ml-4 md:mr-0 hover:bg-gray-300 hover:drop-shadow-md focus:bg-gray-500 transition hover:scale-105 hover:translate-y-1 ease-in-out">Learn
+              more</button>
+        </div> 
+      </div>
+      <div class="lg:w-1/2">
+        <img src="/Hero.png" alt="Hero" class="ml-auto transition-all duration-300 cursor-pointer:scal">
+      </div>
+    </div>
+  </section>
+
+  <!--Google Section-->
+  <section class="container flex flex-col-12 mx-auto px-2 md:px-0 pt-5 mb-8 gap-8 ">
+    <div class="flex items-center justify-center col-span-12 md:col-span-3 md:border-r lg:border-r border-[#D1D3D4]">
+      <p class="text-center flex items-center justify-center h-full  dark:text-black">Pave your path to career success by <br> gaining a professional Google <br>certificate with the support of C4U</p>
+    </div>
+    <div class="flex items-center justify-center col-span-9 md:col-span-3 md:border-r lg:border-r border-[#D1D3D4]">
+      <img src="/Google.png" alt="Google" class="w-40 h-auto">
+    </div>
+    <div class="flex items-center justify-center col-span-9 md:col-span-3 md:border-r lg:border-r border-[#D1D3D4]">
+      <img src="/Work&Pensions.png" alt="Pensions" class="w-40 h-auto">
+    </div>
+    <div class="flex items-center justify-center col-span-9 md:col-span-3 ">
+      <img src="/Logo1.png" alt="Logo" class="w-40 h-auto">
+    </div>
+  </section>
+
+  <!--Learning Section-->
+  <section class="text-gray-600 bg-[#FFFFFF] dark:bg-[#181C14] body-font">
+    <div class="container mx-auto px-5 py-24">
+      <div class="flex flex-col md:flex-row md:space-x-6">
+        <!--Left-->
+        <div class="flex flex-col w-full md:w-1/2 bg-white dark:bg-black p-8 transition-all duration-300 shadow-lg rounded-xl cursor-pointer hover:scale-105">
+          <h3 class="text-3xl md:text-4xl font-black font-sans py-4 mb-6 border-b-2 border-[#F9CCC7] dark:text-white">What you will learn</h3>
+          <div class="flex-grow py-3 space-y-4 ">
+            <div class="flex items-center gap-3 my-8">
+              <img src="/Checkmark.png" alt="Checkmark" class="w-12 h-12">
+              <p class="text-base text-[18px] dark:text-white">Gain skills required to succeed in an entry-level IT job</p>
+            </div>
+            <div class="flex items-center gap-3 my-8">
+              <img src="/Checkmark.png" alt="Checkmark" class="w-12 h-12">
+              <p class="text-base text-[18px] dark:text-white">Learn to perform day-to-day IT support tasks including computer assembly, wireless networking, installing programs, and customer service</p>
+            </div>
+            <div class="flex items-center gap-3 my-8">
+              <img src="/Checkmark.png" alt="Checkmark" class="w-12 h-12">
+              <p class="text-base text-[18px] dark:text-white">Learn how to provide end-to-end customer support, ranging from identifying problems to troubleshooting and debugging</p>
+            </div>
+            <div class="flex items-center gap-3 my-8">
+              <img src="/Checkmark.png" alt="Checkmark" class="w-12 h-12">
+              <p class="text-base text-[18px] dark:text-white">Learn to use systems including Linux, Domain Name Systems, Command-Line Interface, and Binary Code</p>
+            </div>
+          </div>
+        </div>
+        <!--Right-->
+        <div class="md:w-1/2 w-full bg-white dark:bg-black p-8 rounded-xl shadow-lg flex flex-col mt-10 md:mt-0 hover:scale-105 transition-all duration-300 cursor-pointer">
+          <div class="w-full h-64 mb-6 rounded-lg overflow-hidden">
+            <img src="/IT_social1.png" alt="Social" class="w-full h-full object-cover object-center">
+          </div>
+          <h2 class="font-black dark:text-white font-sans md:text-4xl text-3xl py-4 mb-6 border-b-2 border-[#F9CCC7] ">Skills you will gain </h2>
+          <div class="flex flex-wrap gap-2">
+            <span class="tag dark:text-white"> Debuggin </span>
+                <span class="tag">Customer Service</span>
+                <span class="tag">Customer Support</span>
+                <span class="tag">Domain Name System (DNS)</span>
+                <span class="tag">Network Model</span>
+                <span class="tag">Linux</span>
+                <span class="tag">Encryption Algorithms and Techniques</span>
+                <span class="tag">Ipv4</span>
+                <span class="tag">Troubleshooting</span>
+                <span class="tag">Binary Code</span>
+                <span class="tag">Cloud Computing</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Job Section-->
+  <section class="text-gray-600 bg-[#FFFFFF] dark:bg-[#181C14] body-font">
+    <div class="container mx-auto px-5 py-24">
+      <div class="flex flex-col md:flex-row md:space-x-6">
+        <!--Left-->
+        <div  class="flex flex-col w-full md:w-1/2 bg-white dark:bg-black p-8 transition-all duration-300 shadow-lg rounded-xl cursor-pointer hover:scale-105">
+          <h3 class="text-3xl md:text-4xl font-black font-sans py-4 mb-6 border-b-2 border-[#F9CCC7] dark:text-white">Jobs Assocaited with Certificate </h3>
+          <div class=" flex flex-col flex-grow md:flex-grow gap-6">
+            <!--First Column-->
+            <div class="space-y-4 flex-1">
+              <div class="flex items-center gap-3">
+                <img src="/Checkmark(1).png" alt="Checkmark" class="w-6 h-6">
+                <p class="dark:text-white">Database administrator</p>
+              </div>
+              <div class="flex items-center gap-3">
+                <img src="/Checkmark(1).png" alt="Checkmark" class="w-6 h-6">
+                <p class="dark:text-white">Tech support specialist</p>
+              </div>
+              <div class="flex items-center gap-3">
+                <img src="/Checkmark(1).png" alt="Checkmark" class="w-6 h-6">
+                <p class="dark:text-white">IT specialist</p>
+              </div>
+              <div class="flex items-center gap-3">
+                <img src="/Checkmark(1).png" alt="Checkmark" class="w-6 h-6">
+                <p class="dark:text-white">Systems analyst</p>
+              </div>
+              <div class="flex items-center gap-3">
+                <img src="/Checkmark(1).png" alt="Checkmark" class="w-6 h-6">
+                <p class="dark:text-white">Network engineer</p>
+              </div>
+            </div> 
+            <!--Second Column-->
+            <div class="space-y-4 flex-1">
+              <div class="flex items-center gap-3">
+                <img src="/Checkmark(1).png" alt="Checkmark" class="w-6 h-6">
+                <p class="dark:text-white">Help desk technician</p>
+              </div>
+              <div class="flex items-center gap-3">
+                <img src="/Checkmark(1).png" alt="Checkmark" class="w-6 h-6">
+                <p class="dark:text-white">IT support spcialist</p>
+              </div>
+              <div class="flex items-center gap-3">
+                <img src="/Checkmark(1).png" alt="Checkmark" class="w-6 h-6">
+                <p class="dark:text-white">IT technician</p>
+              </div>
+              <div class="flex items-center gap-3">
+                <img src="/Checkmark(1).png" alt="Checkmark" class="w-6 h-6">
+                <p class="dark:text-white">Computer user specialist</p>
+              </div>
+              <div class="flex items-center gap-3">
+                <img src="/Checkmark(1).png" alt="Checkmark" class="w-6 h-6">
+                <p class="dark:text-white">IT assitant </p>
+              </div>
+            </div> 
+          </div>
+        </div>
+        <!--Right-->
+        <div class="md:w-1/2  w-full bg-white dark:bg-black rounded-xl shadow-lg flex items-center justify-center mt-10 md:mt-0 hover:scale-105 transition-all duration-300 cursor-pointer">
+          <img src="/IT Support1.png" alt="Support">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Cerficate Section-->
+  <section class="text-gray-600 bg-white dark:black body-font py-8">
+    <div class="container flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0 md:space-x-6 mx-auto">
+      <!--Left-->
+      <!--text-->
+      <div class="w-full md:w-2/3">
+        <h1 class="font-bold sm:text-3xl md:text-5xl mb-4 text-center md:text-left dark:text-black leading-tight">There are 5 Courses in this <br class="hidden sm:block"> Professional Certificate</h1>
+        <!--Buttons-->
+        <div class="flex flex-wrap justify-center md:justify-start gap-2 sm:gap-3">
+          <button class=" rounded-full shadow bg-[#00FF84] hover:bg-[#00FF84] transition text-sm border border-black px-4 py-2 uppercase">
+            Course  1 
+          </button>
+          <button class="rounded-full shadow hover:bg-[#00FF84] transition text-sm border border-black px-4 py-2 uppercase">
+            Course  2
+          </button>
+          <button   class="rounded-full shadow hover:bg-[#00FF84] transition text-sm border border-black px-4 py-2 uppercase">
+            Course  3 
+          </button>
+          <button  class="rounded-full shadow hover:bg-[#00FF84] transition text-sm border border-black px-4 py-2 uppercase">
+            Course  4 
+          </button>
+          <button   class="rounded-full shadow hover:bg-[#00FF84] transition text-sm border border-black px-4 py-2 uppercase">
+            Course  5
+          </button>
+        </div>
+      </div>
+      <!--Right-->
+      <div class="flex items-center justify-center md:w-1/2 w-full bg-white dark:bg-black p-8 rounded-xl shadow-lg mt-10 md:mt-0 hover:scale-105 transition-all duration-300 cursor-pointer">
+        <img src="/Course.png" alt="Course" class="rounded-lg w-full h-auto object-cover">
+      </div>
+    </div>
+  </section>
+
+  <!--5 Course Section-->
+  <section class="py-3 mx-auto">
+    <section class="flex flex-col items-center space-y-1 px-4 lg:px-5">
+      <!--Image 1-->
+      <div  class="w-full h-auto sm:h-auto flex items-center justify-center">
+        <img src="/Image1.png" alt="Image" class="w-full h-auto sm:h-full object-contain transition-all duration-300">
+      </div>
+      <img src="/ConnectorVector.png" alt="Vector" class=" object-contain">
+       <!--Image 2-->
+       <div  class="w-full h-auto sm:h-auto flex items-center justify-center">
+        <img src="/Image2.png" alt="Image" class="w-full h-auto sm:h-full object-contain transition-all duration-300">
+      </div>
+      <img src="/ConnectorVector.png" alt="Vector" class=" object-contain">
+       <!--Image 3-->
+       <div  class="w-full h-auto sm:h-auto flex items-center justify-center">
+        <img src="/Image3.png" alt="Image" class="w-full h-auto sm:h-full object-contain transition-all duration-300">
+      </div>
+      <img src="/ConnectorVector.png" alt="Vector" class=" object-contain">
+       <!--Image 4-->
+       <div  class="w-full h-auto sm:h-auto flex items-center justify-center">
+        <img src="/Image4.png" alt="Image" class="w-full h-auto sm:h-full object-contain transition-all duration-300">
+      </div>
+      <img src="/ConnectorVector.png" alt="Vector" class=" object-contain">
+       <!--Image 5-->
+       <div  class="w-full h-auto sm:h-auto flex items-center justify-center">
+        <img src="/Image5.png" alt="Image" class="w-full h-auto sm:h-full object-contain transition-all duration-300">
+      </div>
+      <img src="/ConnectorVector.png" alt="Vector" class=" object-contain">
+    </section>
+  </section>
+
+    <!--Testimonial Section -->
+    <section
+      class="flex flex-col md:flex-row items-center md:items-start md:px-10 px-4 md:py-32 py-20 bg-no-repeat bg-blur-sm bg-cover bg-center"
+      style="background-image: url('Connector/Broke.png');">
+      <div
+        class="bg-[#FFFFFF] p-6 sm:p-8 ml-0 md:ml-20 rounded-lg shadow-lg w-full sm:max-w-md md:max-w-xl mx-auto dark:bg-black">
+        <img src="src/img/“.png" alt="" class="py-4 sm:py-5 w-10 sm:w-12">
+        <p class="text-black text-lg sm:text-xl md:text-[26px] font-semibold dark:text-white mb-4"> I worked in retail
+          and needed to make a change. The certificate is really designed for you to go at your own pace. This is
+          something that anybody can do </p>
+        <p class="text-[#F9CCC7] text-sm sm:text-base font-light"> Daniel, IT Support Specialist at Central Community
+          College and Google IT Support Certificate graduate </p>
+      </div>
+    </section>
+    <!--Footer part-->
+    <footer class="text-black  body-font">
+      <div
+        class="container px-4 py-20 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+        <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+          <img src="/Logo.png" alt="logo image">
+          <nav class="list-none mb-10 py-3 my-3 space-y-3">
+            <li>
+              <a class="text-[#20484F] dark:text-white">Level39</a>
+            </li>
+            <li>
+              <a class="text-[#20484F] dark:text-white">One Canada Square</a>
+            </li>
+            <li>
+              <a class="text-[#20484F] dark:text-white">Canary Wharf</a>
+            </li>
+            <li>
+              <a class="text-[#20484F] dark:text-white">London</a>
+            </li>
+            <li>
+              <a class="text-[#20484F] dark:text-white">E14 5AB</a>
+            </li>
+          </nav>
+        </div>
+        <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 class="title-font text-black font-medium dark:text-white tracking-widest text-lg mb-3">Home</h2>
+            <nav class="list-none mb-10 py-5 my-5 space-y-3">
+              <li>
+                <a class="text-[#20484F] dark:text-white">Collaborations</a>
+              </li>
+              <li>
+                <a class="text-[#20484F] dark:text-white">Statistics</a>
+              </li>
+              <li>
+                <a class="text-[#20484F] dark:text-white">How It Works</a>
+              </li>
+              <li>
+                <a class="text-[#20484F] dark:text-white">Testimonials</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 class="title-font font-medium dark:text-white tracking-widest text-lg mb-3">About Us</h2>
+            <nav class="list-none mb-10 py-5 my-5 space-y-3">
+              <li>
+                <a class="text-[#20484F] dark:text-white">Who We Are</a>
+              </li>
+              <li>
+                <a class="text-[#20484F] dark:text-white">Mission statement</a>
+              </li>
+              <li>
+                <a class="text-[#20484F] dark:text-white">Our Vision</a>
+              </li>
+              <li>
+                <a class="text-[#20484F] dark:text-white">The Team</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 class="title-font font-medium dark:text-white tracking-widest text-lg mb-3">Upskill</h2>
+            <nav class="list-none mb-10 py-5 my-5 space-y-3">
+              <li>
+                <a class="text-[#20484F] dark:text-white">IT Support</a>
+              </li>
+              <li>
+                <a class="text-[#20484F] dark:text-white">Project Management</a>
+              </li>
+              <li>
+                <a class="text-[#20484F] dark:text-white">Data Analysts</a>
+              </li>
+              <li>
+                <a class="text-[#20484F] dark:text-white">UX Design</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 class="title-font font-medium dark:text-white tracking-widest text-lg mb-3">Contact Us </h2>
+            <nav class="list-none mb-10 py-5 my-5 space-y-3">
+              <li>
+                <a class="text-[#20484F] dark:text-white">Your Message</a>
+              </li>
+              <li>
+                <a class="text-[#20484F] dark:text-white">Email</a>
+              </li>
+              <li>
+                <a class="text-[#20484F] dark:text-white">Phone Number</a>
+              </li>
+              <li>
+                <a class="text-[#20484F] dark:text-white">LinkedIn</a>
+              </li>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!--pure footer-->
+      <div class="bg-white border-t border-[#20484F1A] dark:border-white dark:bg-[#181C14] dark:text-white">
+        <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row justify-center">
+          <p class="text-sm text-center py-2 transition-all duration-300 cursor-pointer:scal">&copy; Copyright 2022
+            Creatives For You LTD</p>
+        </div>
+      </div>
+    </footer>
+
+
+    <script>
+      const htmlTag =document.getElementById("htmlTag");
+      document.getElementById("switch").addEventListener("click", function () {
+        htmlTag.classList.toggle("dark");
+      });
+    </script>
+
+
+</body>
+</html>
+
