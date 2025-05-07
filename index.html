@@ -9,18 +9,19 @@
 </head>
 <body class="bg-[#FAFAFA] dark:bg-900">
   <!--Header section -->
+  
   <header class="bg-white dark:bg-[#181C14]">
     <nav
       class="container mx-auto relative flex items-center justify-between sm:h-10 md:justify-center py-9 px-4 mt-2 dark:bg-[#181C14]">
       <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
         <div class="flex items-center justify-between w-full md:w-auto">
           <a href="" aria-label="Home">
-            <img src="/Logo1.png" alt="Logo" class="transition-all duration-300 cursor-pointer:scal">
+            <img src="/Logo1.png" alt="Logo" class="transition-all duration-300 cursor-pointer hover:scale-105">
           </a>
           <div class="-mr-2 flex items-center md:hidden">
-            <button type="button transition-all duration-300 cursor-pointer:scal" id="main-menu"
+            <button id="main-menu"
               aria-label="Main menu" aria-haspopup="true"
-              class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
+              class="inline-flex items-center justify-center p-2 rounded-md text-gray-500 hover:text-gray-100 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
               <svg stroke="currentColor" fill="none" viewBox="0 0 24 24" class="h-6 w-6">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
                 </path>
@@ -29,13 +30,13 @@
           </div>
         </div>
       </div>
-      <div class="hidden md:flex md:space-x-10 transition-all duration-300 cursor-pointer:scal">
+      <div class="hidden md:flex md:space-x-10 transition-all duration-300">
         <a href="#features"
-          class="font-medium text-gray-500 hover:text-[#F44335] hover:underline hover:decoration-[#f44335]  ease-in-out dark:text-white transition-all duration-300 cursor-pointer:scal hover:scale-105">Home</a>
+          class="font-medium text-gray-500 hover:text-[#F44335] hover:underline hover:decoration-[#f44335] dark:text-white transition-all duration-300 cursor-pointer:scal hover:scale-105">Home</a>
         <a href="#pricing"
-          class="font-medium text-gray-500 hover:text-[#F44335] hover:underline hover:decoration-[#f44335] transition duration-150 hover:scale-105 ease-in-out dark:text-white">About</a>
+          class="font-medium text-gray-500 hover:text-[#F44335] hover:underline hover:decoration-[#f44335] transition duration-150 hover:scale-105  dark:text-white">About</a>
         <a href="/blog"
-          class="font-medium text-[#F44335] hover:text-[#F44335] transition duration-150 ease-in-out hover:underline hover:scale-105 hover:decoration-[#f44335] ">Upskill</a>
+          class="font-medium text-[#F44335] hover:text-[#F44335] transition duration-150 ease-in-out hover:underline hover:scale-105 hover:decoration-[#f44335]">Upskill</a>
         <a href=""
           class="font-medium hover:underline hover:decoration-[#f44335] text-gray-500 hover:text-[#F44335] hover:scale-105 transition duration-150 ease-in-out dark:text-white">Contact
           us</a>
@@ -43,18 +44,19 @@
       <div class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0 gap-3">
         <span class="inline-flex rounded-md shadow ml-2 gap-4">
           <a href="#">
-            <button
-              class="bg-[#F44335] md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md text-white font-semibold hover:bg-[#C3352A] transition hover:scale-105 hover:translate-x-1">Personalize
-              News
+            <button type="button"
+              class="bg-[#F44335] md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md text-white font-semibold hover:bg-[#C3352A] transition hover:scale-105 hover:translate-x-1">Register Interest
             </button>
           </a>
         </span>
-        <p> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+        <button id="switch" class="text-black dark:text-white">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
           stroke="currentColor"
-          class="size-8 dark:stroke-white transition hover:scale-105 hover:translate-y-1 dark:bg-[#181C14] ">
+          class="size-8  dark:stroke-white transition hover:scale-105 hover:translate-y-1 dark:bg-[#181C14] ">
           <path stroke-linecap="round" stroke-linejoin="round"
             d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
-        </svg></p>
+          </svg>
+        </button>  
       </div>
     </nav>
   </header>
@@ -102,7 +104,7 @@
             Sign up
           </button>
           <button type="button"
-              class="text-gray-900 bg-gray-200 font-medium rounded-lg px-5 py-4 text-center ml-4 md:mr-0 hover:bg-gray-300 hover:drop-shadow-md focus:bg-gray-500 transition hover:scale-105 hover:translate-y-1 ease-in-out">Learn
+              class="text-gray-900 bg-gray-200 font-medium rounded-lg px-9 py-4 text-center ml-4 md:mr-0 hover:bg-gray-300 hover:drop-shadow-md focus:bg-gray-500 transition hover:scale-105 hover:translate-y-1 ease-in-out">Learn
               more</button>
         </div> 
       </div>
@@ -113,14 +115,14 @@
   </section>
 
   <!--Google Section-->
-  <section class="container flex flex-col-12 mx-auto px-2 md:px-0 pt-5 mb-8 gap-8 ">
+  <section class="container flex flex-col-12 bg-white dark:bg-[#181C14] mx-auto px-2 md:px-0 pt-5 py-8 mb-8 gap-8 ">
     <div class="flex items-center justify-center col-span-12 md:col-span-3 md:border-r lg:border-r border-[#D1D3D4]">
-      <p class="text-center flex items-center justify-center h-full  dark:text-black">Pave your path to career success by <br> gaining a professional Google <br>certificate with the support of C4U</p>
+      <p class="text-center flex items-center justify-center h-full  dark:text-white">Pave your path to career success by <br> gaining a professional Google <br>certificate with the support of C4U</p>
     </div>
     <div class="flex items-center justify-center col-span-9 md:col-span-3 md:border-r lg:border-r border-[#D1D3D4]">
       <img src="/Google.png" alt="Google" class="w-40 h-auto">
     </div>
-    <div class="flex items-center justify-center col-span-9 md:col-span-3 md:border-r lg:border-r border-[#D1D3D4]">
+    <div class="flex items-center justify-center dark:text-white col-span-9 md:col-span-3 md:border-r lg:border-r border-[#D1D3D4]">
       <img src="/Work&Pensions.png" alt="Pensions" class="w-40 h-auto">
     </div>
     <div class="flex items-center justify-center col-span-9 md:col-span-3 ">
@@ -129,157 +131,196 @@
   </section>
 
   <!--Learning Section-->
-  <section class="text-gray-600 bg-[#FFFFFF] dark:bg-[#181C14] body-font">
-    <div class="container mx-auto px-5 py-24">
-      <div class="flex flex-col md:flex-row md:space-x-6">
-        <!--Left-->
-        <div class="flex flex-col w-full md:w-1/2 bg-white dark:bg-black p-8 transition-all duration-300 shadow-lg rounded-xl cursor-pointer hover:scale-105">
-          <h3 class="text-3xl md:text-4xl font-black font-sans py-4 mb-6 border-b-2 border-[#F9CCC7] dark:text-white">What you will learn</h3>
-          <div class="flex-grow py-3 space-y-4 ">
-            <div class="flex items-center gap-3 my-8">
-              <img src="/Checkmark.png" alt="Checkmark" class="w-12 h-12">
-              <p class="text-base text-[18px] dark:text-white">Gain skills required to succeed in an entry-level IT job</p>
-            </div>
-            <div class="flex items-center gap-3 my-8">
-              <img src="/Checkmark.png" alt="Checkmark" class="w-12 h-12">
-              <p class="text-base text-[18px] dark:text-white">Learn to perform day-to-day IT support tasks including computer assembly, wireless networking, installing programs, and customer service</p>
-            </div>
-            <div class="flex items-center gap-3 my-8">
-              <img src="/Checkmark.png" alt="Checkmark" class="w-12 h-12">
-              <p class="text-base text-[18px] dark:text-white">Learn how to provide end-to-end customer support, ranging from identifying problems to troubleshooting and debugging</p>
-            </div>
-            <div class="flex items-center gap-3 my-8">
-              <img src="/Checkmark.png" alt="Checkmark" class="w-12 h-12">
-              <p class="text-base text-[18px] dark:text-white">Learn to use systems including Linux, Domain Name Systems, Command-Line Interface, and Binary Code</p>
-            </div>
-          </div>
-        </div>
-        <!--Right-->
-        <div class="md:w-1/2 w-full bg-white dark:bg-black p-8 rounded-xl shadow-lg flex flex-col mt-10 md:mt-0 hover:scale-105 transition-all duration-300 cursor-pointer">
-          <div class="w-full h-64 mb-6 rounded-lg overflow-hidden">
-            <img src="/IT_social1.png" alt="Social" class="w-full h-full object-cover object-center">
-          </div>
-          <h2 class="font-black dark:text-white font-sans md:text-4xl text-3xl py-4 mb-6 border-b-2 border-[#F9CCC7] ">Skills you will gain </h2>
-          <div class="flex flex-wrap gap-2">
-            <span class="tag dark:text-white"> Debuggin </span>
-                <span class="tag">Customer Service</span>
-                <span class="tag">Customer Support</span>
-                <span class="tag">Domain Name System (DNS)</span>
-                <span class="tag">Network Model</span>
-                <span class="tag">Linux</span>
-                <span class="tag">Encryption Algorithms and Techniques</span>
-                <span class="tag">Ipv4</span>
-                <span class="tag">Troubleshooting</span>
-                <span class="tag">Binary Code</span>
-                <span class="tag">Cloud Computing</span>
+  <section id="skill" class="max-w-[1440px] mx-auto px-4 md:px-20 py-[104px] dark:bg-[#181C14]">
+    <div class="flex flex-col lg:flex-row gap-6 mb-12">
+
+      <!--Left -->
+      <div class="p-8 bg-white dark:bg-white/20 rounded-3xl shadow-md lg:w-1/2">
+        <h2 class="text-black dark:text-white text-2xl font-semibold mb-6">What you will learn</h2>
+        <ul class="space-y-6 pt-2">
+          <li class="flex items-start gap-4">
+            <span class="min-w-[50px] h-[50px] bg-[#F9CCC7] flex items-center justify-center rounded-full">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 text-[#000]">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+              </svg>
+            </span>
+            <p class="text-lg text-[#181818] dark:text-white selection:bg-[#FF5F5A] select-all">
+              Gain skills required to succeed in an entry-level IT job
+            </p>
+          </li>
+          <li class="flex items-start gap-4">
+            <span class="min-w-[50px] h-[50px] bg-[#F9CCC7] flex items-center justify-center rounded-full">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 text-[#000]">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+              </svg>
+            </span>
+            <p class="text-lg text-[#181818] dark:text-white selection:bg-[#FF5F5A] select-all">
+              Perform IT tasks like computer assembly, networking, installing software, and customer service
+            </p>
+          </li>
+          <li class="flex items-start gap-4">
+            <span class="min-w-[50px] h-[50px] bg-[#F9CCC7] flex items-center justify-center rounded-full">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+              </svg>
+              
+            </span>
+            <p class="text-lg text-[#181818] dark:text-white selection:bg-[#FF5F5A] select-all">
+              Provide customer support from identifying issues to debugging
+            </p>
+          </li>
+          <li class="flex items-start gap-4">
+            <span class="min-w-[50px] h-[50px] bg-[#F9CCC7] flex items-center justify-center rounded-full">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 text-[#000]">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+              </svg>
+            </span>
+            <p class="text-lg text-[#181818] dark:text-white selection:bg-[#FF5F5A] select-all">
+              Use tools like Linux, DNS, Command-Line Interface, and Binary Code
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Skills -->
+      <div class="bg-white dark:bg-white/20 rounded-3xl shadow-md lg:w-1/2 overflow-hidden">
+        <img src="public/IT_social1.png" alt="IT skills illustration"
+          class="w-full h-[245px] object-contain object-center bg-white rounded-t-3xl" />
+        <div class="p-8">
+          <h2 class="text-black dark:text-white text-2xl font-semibold mb-6">Skills you will gain</h2>
+          <div class="flex flex-wrap gap-3">
+            <span
+              class="px-4 py-2 bg-white dark:bg-transparent border border-[#F9CCC7] rounded-full text-sm text-black dark:text-white hover:text-active hover:shadow-md hover:outline hover:outline-2 hover:outline-active hover:ring-2 transition">Debugging</span>
+            <span class="px-4 py-2 border border-[#F9CCC7] rounded-full text-sm text-black dark:text-white hover:text-active hover:shadow-md hover:outline hover:outline-2 hover:outline-active hover:ring-2 transition">Customer
+              Service</span>
+            <span class="px-4 py-2 border border-[#F9CCC7] rounded-full text-sm text-black dark:text-white hover:text-active hover:shadow-md hover:outline hover:outline-2 hover:outline-active hover:ring-2 transition">Customer
+              Support</span>
+            <span class="px-4 py-2 border border-[#F9CCC7] rounded-full text-sm text-black dark:text-white hover:text-active hover:shadow-md hover:outline hover:outline-2 hover:outline-active hover:ring-2 transition">Domain Name
+              System (DNS)</span>
+            <span class="px-4 py-2 border border-[#F9CCC7] rounded-full text-sm text-black dark:text-white hover:text-active hover:shadow-md hover:outline hover:outline-2 hover:outline-active hover:ring-2 transition">Network
+              Model</span>
+            <span class="px-4 py-2 border border-[#F9CCC7] rounded-full text-sm text-black dark:text-white hover:text-active hover:shadow-md hover:outline hover:outline-2 hover:outline-active hover:ring-2 transition">Linux</span>
+            <span class="px-4 py-2 border border-[#F9CCC7] rounded-full text-sm text-black dark:text-white hover:text-active hover:shadow-md hover:outline hover:outline-2 hover:outline-active hover:ring-2 transition">Encryption
+              Algorithms and Techniques</span>
+            <span class="px-4 py-2 border border-[#F9CCC7] rounded-full text-sm text-black dark:text-white hover:text-active hover:shadow-md hover:outline hover:outline-2 hover:outline-active hover:ring-2 transition">Network
+              Protocols</span>
+            <span class="px-4 py-2 border border-[#F9CCC7] rounded-full text-sm text-black dark:text-white hover:text-active hover:shadow-md hover:outline hover:outline-2 hover:outline-active hover:ring-2 transition">IPv4</span>
+            <span
+              class="px-4 py-2 border border-[#F9CCC7] rounded-full text-sm text-black dark:text-white hover:text-active hover:shadow-md hover:outline hover:outline-2 hover:outline-active hover:ring-2 transition">Troubleshooting</span>
+            <span class="px-4 py-2 border border-[#F9CCC7] rounded-full text-sm text-black dark:text-white hover:text-active hover:shadow-md hover:outline hover:outline-2 hover:outline-active hover:ring-2 transition">Binary
+              Code</span>
+            <span class="px-4 py-2 border border-[#F9CCC7] rounded-full text-sm text-black dark:text-white hover:text-active hover:shadow-md hover:outline hover:outline-2 hover:outline-active hover:ring-2 transition">Cloud
+              Computing</span>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </div>>
 
   <!--Job Section-->
-  <section class="text-gray-600 bg-[#FFFFFF] dark:bg-[#181C14] body-font">
-    <div class="container mx-auto px-5 py-24">
-      <div class="flex flex-col md:flex-row md:space-x-6">
-        <!--Left-->
-        <div  class="flex flex-col w-full md:w-1/2 bg-white dark:bg-black p-8 transition-all duration-300 shadow-lg rounded-xl cursor-pointer hover:scale-105">
-          <h3 class="text-3xl md:text-4xl font-black font-sans py-4 mb-6 border-b-2 border-[#F9CCC7] dark:text-white">Jobs Assocaited with Certificate </h3>
-          <div class=" flex flex-col flex-grow md:flex-grow gap-6">
-            <!--First Column-->
-            <div class="space-y-4 flex-1">
-              <div class="flex items-center gap-3">
-                <img src="/Checkmark(1).png" alt="Checkmark" class="w-6 h-6">
-                <p class="dark:text-white">Database administrator</p>
-              </div>
-              <div class="flex items-center gap-3">
-                <img src="/Checkmark(1).png" alt="Checkmark" class="w-6 h-6">
-                <p class="dark:text-white">Tech support specialist</p>
-              </div>
-              <div class="flex items-center gap-3">
-                <img src="/Checkmark(1).png" alt="Checkmark" class="w-6 h-6">
-                <p class="dark:text-white">IT specialist</p>
-              </div>
-              <div class="flex items-center gap-3">
-                <img src="/Checkmark(1).png" alt="Checkmark" class="w-6 h-6">
-                <p class="dark:text-white">Systems analyst</p>
-              </div>
-              <div class="flex items-center gap-3">
-                <img src="/Checkmark(1).png" alt="Checkmark" class="w-6 h-6">
-                <p class="dark:text-white">Network engineer</p>
-              </div>
-            </div> 
-            <!--Second Column-->
-            <div class="space-y-4 flex-1">
-              <div class="flex items-center gap-3">
-                <img src="/Checkmark(1).png" alt="Checkmark" class="w-6 h-6">
-                <p class="dark:text-white">Help desk technician</p>
-              </div>
-              <div class="flex items-center gap-3">
-                <img src="/Checkmark(1).png" alt="Checkmark" class="w-6 h-6">
-                <p class="dark:text-white">IT support spcialist</p>
-              </div>
-              <div class="flex items-center gap-3">
-                <img src="/Checkmark(1).png" alt="Checkmark" class="w-6 h-6">
-                <p class="dark:text-white">IT technician</p>
-              </div>
-              <div class="flex items-center gap-3">
-                <img src="/Checkmark(1).png" alt="Checkmark" class="w-6 h-6">
-                <p class="dark:text-white">Computer user specialist</p>
-              </div>
-              <div class="flex items-center gap-3">
-                <img src="/Checkmark(1).png" alt="Checkmark" class="w-6 h-6">
-                <p class="dark:text-white">IT assitant </p>
-              </div>
-            </div> 
-          </div>
+  <section >
+    <div class="flex flex-col lg:flex-row gap-6">
+      <div class="p-8 lg:w-1/2 rounded-3xl bg-white dark:bg-white/20 shadow-md ">
+        <h2 class="text-black dark:text-white text-2xl font-semibold mb-6">Jobs Associated with Certificate</h2>
+        <div class="flex gap-6 flex-col md:flex-row ">
+          <ul class=" w-full space-y-3">
+            <li class="flex gap-3 items-center">
+              <img src="public/Checkmark.png" alt="Checkmark" class="h-5 w-5" />
+              <p class="text-lg hover:text-[#e24c51] text-[#181818] dark:text-white">Database Administrator</p>
+            </li>
+            <li class="flex gap-3 items-center">
+              <img src="public/Checkmark.png" alt="Checkmark" class="h-5 w-5" />
+              <p class="text-lg hover:text-[#e24c51] text-[#181818] dark:text-white">Tech Support Specialist</p>
+            </li>
+            <li class="flex gap-3 items-center">
+              <img src="public/Checkmark.png" alt="Checkmark" class="h-5 w-5" />
+              <p class="text-lg hover:text-[#e24c51] text-[#181818] dark:text-white">IT Specialist</p>
+            </li>
+            <li class="flex gap-3 items-center">
+              <img src="public/Checkmark.png" alt="Checkmark" class="h-5 w-5" />
+              <p class="text-lg hover:text-[#e24c51] text-[#181818] dark:text-white">Systems Analyst</p>
+            </li>
+          </ul>
+          <ul class="w-full space-y-3">
+            <li class="flex gap-3 items-center">
+              <img src="public/Checkmark.png" alt="Checkmark" class="h-5 w-5" />
+              <p class="text-lg hover:text-[#e24c51] text-[#181818] dark:text-white">Network Administrator</p>
+            </li>
+            <li class="flex gap-3 items-center">
+              <img src="public/Checkmark.png" alt="Checkmark" class="h-5 w-5" />
+              <p class="text-lg hover:text-[#e24c51] text-[#181818] dark:text-white">Help Desk Technician</p>
+            </li>
+            <li class="flex gap-3 items-center">
+              <img src="public/Checkmark.png" alt="Checkmark" class="h-5 w-5" />
+              <p class="text-lg hover:text-[#e24c51] text-[#181818] dark:text-white">Technical Support Engineer</p>
+            </li>
+            <li class="flex gap-3 items-center">
+              <img src="public/Checkmark.png" alt="Checkmark" class="h-5 w-5" />
+              <p class="text-lg hover:text-[#e24c51] text-[#181818] dark:text-white">Security Analyst</p>
+            </li>
+          </ul>
         </div>
-        <!--Right-->
-        <div class="md:w-1/2  w-full bg-white dark:bg-black rounded-xl shadow-lg flex items-center justify-center mt-10 md:mt-0 hover:scale-105 transition-all duration-300 cursor-pointer">
-          <img src="/IT Support1.png" alt="Support">
-        </div>
+      </div>
+
+      <!--Right-->
+      <div class="lg:w-1/2">
+        <img src="public/IT Support1.png" alt="IT Certificatee"
+          class="w-full h-full object-contain rounded-3xl shadow-md" />
       </div>
     </div>
   </section>
 
   <!--Cerficate Section-->
-  <section class="text-gray-600 bg-white dark:black body-font py-8">
-    <div class="container flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0 md:space-x-6 mx-auto">
-      <!--Left-->
-      <!--text-->
-      <div class="w-full md:w-2/3">
-        <h1 class="font-bold sm:text-3xl md:text-5xl mb-4 text-center md:text-left dark:text-black leading-tight">There are 5 Courses in this <br class="hidden sm:block"> Professional Certificate</h1>
+  <section id="course" class="w-full bg-white dark:bg-[#181C14] px-4 md:px-20 py-8 md:py-12">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 md:gap-16">
+
+      <!-- Left-->
+      <div class="flex-1">
+        <h2 class="text-2xl md:text-4xl font-bold text-[#2D3142] dark:text-white mb-6 max-w-xl leading-snug">
+          There are 5 Courses in this Professional Certificate
+        </h2>
+
         <!--Buttons-->
-        <div class="flex flex-wrap justify-center md:justify-start gap-2 sm:gap-3">
-          <button class=" rounded-full shadow bg-[#00FF84] hover:bg-[#00FF84] transition text-sm border border-black px-4 py-2 uppercase">
-            Course  1 
+        <div id="course-buttons" class="flex flex-wrap gap-3 md:gap-4 border-b border-[#F9CCC7] pb-4">
+          <button
+            class="px-6 py-0 text-sm md:text-base font-medium text-black hover:bg-[#00e176] dark:hover:bg-[#00cc6a] course-btn active-course border border-[#232323] bg-[#00FF84] rounded-full cursor-pointer font-jakarta transition-all duration-300 shadow-md hover:shadow-lg">
+            Course 1
           </button>
-          <button class="rounded-full shadow hover:bg-[#00FF84] transition text-sm border border-black px-4 py-2 uppercase">
-            Course  2
-          </button>
-          <button   class="rounded-full shadow hover:bg-[#00FF84] transition text-sm border border-black px-4 py-2 uppercase">
-            Course  3 
-          </button>
-          <button  class="rounded-full shadow hover:bg-[#00FF84] transition text-sm border border-black px-4 py-2 uppercase">
-            Course  4 
-          </button>
-          <button   class="rounded-full shadow hover:bg-[#00FF84] transition text-sm border border-black px-4 py-2 uppercase">
-            Course  5
-          </button>
+          <button
+          class="px-5 py-2 text-sm md:text-base font-medium text-[#2D3142] hover:bg-gray-100 dark:hover:bg-gray-600 course-btn border border-[#232323]  dark:text-white rounded-full cursor-pointer font-jakarta transition-all duration-300 shadow-sm hover:shadow-lg">
+          Course 2
+        </button>
+        <button
+        class="px-5 py-2 text-sm md:text-base font-medium text-[#2D3142] hover:bg-gray-100 dark:hover:bg-gray-600 course-btn border border-[#232323]  dark:text-white rounded-full cursor-pointer font-jakarta transition-all duration-300 shadow-sm hover:shadow-lg">
+          Course 3
+        </button>
+        <button
+          class="course-btn border border-[#232323] text-[#2D3142] dark:text-white hover:bg-gray-100 dark:hover:bg-gray-600 transition-all duration-300 shadow-sm hover:shadow-lg rounded-full px-5 py-2 cursor-pointer text-sm md:text-base font-medium font-jakarta">
+          Course 4
+        </button>
+        <button
+        class="px-5 py-2 text-sm md:text-base font-medium text-[#2D3142] hover:bg-gray-100 dark:hover:bg-gray-600 course-btn border border-[#232323]  dark:text-white rounded-full cursor-pointer font-jakarta transition-all duration-300 shadow-sm hover:shadow-lg">
+          Course 5
+        </button>
         </div>
       </div>
-      <!--Right-->
-      <div class="flex items-center justify-center md:w-1/2 w-full bg-white dark:bg-black p-8 rounded-xl shadow-lg mt-10 md:mt-0 hover:scale-105 transition-all duration-300 cursor-pointer">
-        <img src="/Course.png" alt="Course" class="rounded-lg w-full h-auto object-cover">
+
+      <!-- Right-->
+      <div class=" md:max-w-[320px] flex-1 max-w-[280px] ">
+        <img src="public/Course.png" alt="Professional Certificate Badge"
+          class="w-full h-auto object-contain" />
       </div>
+
     </div>
   </section>
 
   <!--5 Course Section-->
   <section class="py-3 mx-auto">
-    <section class="flex flex-col items-center space-y-1 px-4 lg:px-5">
+    <section class="flex flex-col items-center space-y-1 px-4 lg:px-5 bg-white dark:bg-black">
       <!--Image 1-->
-      <div  class="w-full h-auto sm:h-auto flex items-center justify-center">
+      <div class="w-full h-auto sm:h-auto flex items-center justify-center">
         <img src="/Image1.png" alt="Image" class="w-full h-auto sm:h-full object-contain transition-all duration-300">
       </div>
       <img src="/ConnectorVector.png" alt="Vector" class=" object-contain">
@@ -306,131 +347,138 @@
     </section>
   </section>
 
-    <!--Testimonial Section -->
-    <section
-      class="flex flex-col md:flex-row items-center md:items-start md:px-10 px-4 md:py-32 py-20 bg-no-repeat bg-blur-sm bg-cover bg-center"
-      style="background-image: url('Connector/Broke.png');">
-      <div
-        class="bg-[#FFFFFF] p-6 sm:p-8 ml-0 md:ml-20 rounded-lg shadow-lg w-full sm:max-w-md md:max-w-xl mx-auto dark:bg-black">
-        <img src="src/img/“.png" alt="" class="py-4 sm:py-5 w-10 sm:w-12">
-        <p class="text-black text-lg sm:text-xl md:text-[26px] font-semibold dark:text-white mb-4"> I worked in retail
-          and needed to make a change. The certificate is really designed for you to go at your own pace. This is
-          something that anybody can do </p>
-        <p class="text-[#F9CCC7] text-sm sm:text-base font-light"> Daniel, IT Support Specialist at Central Community
-          College and Google IT Support Certificate graduate </p>
+
+  <!--Testimonial Section -->
+  <section
+    class="flex flex-col md:flex-row items-center md:items-start md:px-10 px-4 md:py-32 py-20 bg-no-repeat bg-blur-sm bg-cover bg-center"
+    style="background-image: url('public/Broke.png');">
+    <div
+      class="bg-[#FFFFFF] p-6 sm:p-8 ml-0 md:ml-20 rounded-lg shadow-lg w-full sm:max-w-md md:max-w-xl mx-auto dark:bg-black">
+      <img src="src/img/“.png" alt="" class="py-4 sm:py-5 w-10 sm:w-12">
+      <p class="text-black text-lg sm:text-xl md:text-[26px] font-semibold dark:text-white mb-4"> I worked in retail
+        and needed to make a change. The certificate is really designed for you to go at your own pace. This is
+        something that anybody can do </p>
+      <p class="text-[#F9CCC7] text-sm sm:text-base font-light"> Daniel, IT Support Specialist at Central Community
+        College and Google IT Support Certificate graduate </p>
+    </div>
+  </section>
+
+
+  <!--Footer part-->
+  <footer class="text-black body-font">
+    <div
+      class="container px-4 py-20 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col bg-[#FFFFFF] dark:bg-black">
+      <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+        <img src="/Logo.png" alt="logo">
+        <nav class="list-none mb-10 py-3 my-3 space-y-3">
+          <li>
+            <a class="text-[#20484F] dark:text-white">Level39</a>
+          </li>
+          <li>
+            <a class="text-[#20484F] dark:text-white">One Canada Square</a>
+          </li>
+          <li>
+            <a class="text-[#20484F] dark:text-white">Canary Wharf</a>
+          </li>
+          <li>
+            <a class="text-[#20484F] dark:text-white">London</a>
+          </li>
+          <li>
+            <a class="text-[#20484F] dark:text-white">E14 5AB</a>
+          </li>
+        </nav>
       </div>
-    </section>
-    <!--Footer part-->
-    <footer class="text-black  body-font">
-      <div
-        class="container px-4 py-20 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-        <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-          <img src="/Logo.png" alt="logo image">
-          <nav class="list-none mb-10 py-3 my-3 space-y-3">
+      <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font text-black font-medium dark:text-white tracking-widest text-lg mb-3">Home</h2>
+          <nav class="list-none mb-10 py-5 my-5 space-y-3">
             <li>
-              <a class="text-[#20484F] dark:text-white">Level39</a>
+              <a class="text-[#20484F] dark:text-white">Collaborations</a>
             </li>
             <li>
-              <a class="text-[#20484F] dark:text-white">One Canada Square</a>
+              <a class="text-[#20484F] dark:text-white">Statistics</a>
             </li>
             <li>
-              <a class="text-[#20484F] dark:text-white">Canary Wharf</a>
+              <a class="text-[#20484F] dark:text-white">How It Works</a>
             </li>
             <li>
-              <a class="text-[#20484F] dark:text-white">London</a>
-            </li>
-            <li>
-              <a class="text-[#20484F] dark:text-white">E14 5AB</a>
+              <a class="text-[#20484F] dark:text-white">Testimonials</a>
             </li>
           </nav>
         </div>
-        <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
-          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="title-font text-black font-medium dark:text-white tracking-widest text-lg mb-3">Home</h2>
-            <nav class="list-none mb-10 py-5 my-5 space-y-3">
-              <li>
-                <a class="text-[#20484F] dark:text-white">Collaborations</a>
-              </li>
-              <li>
-                <a class="text-[#20484F] dark:text-white">Statistics</a>
-              </li>
-              <li>
-                <a class="text-[#20484F] dark:text-white">How It Works</a>
-              </li>
-              <li>
-                <a class="text-[#20484F] dark:text-white">Testimonials</a>
-              </li>
-            </nav>
-          </div>
-          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="title-font font-medium dark:text-white tracking-widest text-lg mb-3">About Us</h2>
-            <nav class="list-none mb-10 py-5 my-5 space-y-3">
-              <li>
-                <a class="text-[#20484F] dark:text-white">Who We Are</a>
-              </li>
-              <li>
-                <a class="text-[#20484F] dark:text-white">Mission statement</a>
-              </li>
-              <li>
-                <a class="text-[#20484F] dark:text-white">Our Vision</a>
-              </li>
-              <li>
-                <a class="text-[#20484F] dark:text-white">The Team</a>
-              </li>
-            </nav>
-          </div>
-          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="title-font font-medium dark:text-white tracking-widest text-lg mb-3">Upskill</h2>
-            <nav class="list-none mb-10 py-5 my-5 space-y-3">
-              <li>
-                <a class="text-[#20484F] dark:text-white">IT Support</a>
-              </li>
-              <li>
-                <a class="text-[#20484F] dark:text-white">Project Management</a>
-              </li>
-              <li>
-                <a class="text-[#20484F] dark:text-white">Data Analysts</a>
-              </li>
-              <li>
-                <a class="text-[#20484F] dark:text-white">UX Design</a>
-              </li>
-            </nav>
-          </div>
-          <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="title-font font-medium dark:text-white tracking-widest text-lg mb-3">Contact Us </h2>
-            <nav class="list-none mb-10 py-5 my-5 space-y-3">
-              <li>
-                <a class="text-[#20484F] dark:text-white">Your Message</a>
-              </li>
-              <li>
-                <a class="text-[#20484F] dark:text-white">Email</a>
-              </li>
-              <li>
-                <a class="text-[#20484F] dark:text-white">Phone Number</a>
-              </li>
-              <li>
-                <a class="text-[#20484F] dark:text-white">LinkedIn</a>
-              </li>
-            </nav>
-          </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium dark:text-white tracking-widest text-lg mb-3">About Us</h2>
+          <nav class="list-none mb-10 py-5 my-5 space-y-3">
+            <li>
+              <a class="text-[#20484F] dark:text-white">Who We Are</a>
+            </li>
+            <li>
+              <a class="text-[#20484F] dark:text-white">Mission statement</a>
+            </li>
+            <li>
+              <a class="text-[#20484F] dark:text-white">Our Vision</a>
+            </li>
+            <li>
+              <a class="text-[#20484F] dark:text-white">The Team</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium dark:text-white tracking-widest text-lg mb-3">Upskill</h2>
+          <nav class="list-none mb-10 py-5 my-5 space-y-3">
+            <li>
+              <a class="text-[#20484F] dark:text-white">IT Support</a>
+            </li>
+            <li>
+              <a class="text-[#20484F] dark:text-white">Project Management</a>
+            </li>
+            <li>
+              <a class="text-[#20484F] dark:text-white">Data Analysts</a>
+            </li>
+            <li>
+              <a class="text-[#20484F] dark:text-white">UX Design</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium dark:text-white tracking-widest text-lg mb-3">Contact Us </h2>
+          <nav class="list-none mb-10 py-5 my-5 space-y-3">
+            <li>
+              <a class="text-[#20484F] dark:text-white">Your Message</a>
+            </li>
+            <li>
+              <a class="text-[#20484F] dark:text-white">Email</a>
+            </li>
+            <li>
+              <a class="text-[#20484F] dark:text-white">Phone Number</a>
+            </li>
+            <li>
+              <a class="text-[#20484F] dark:text-white">LinkedIn</a>
+            </li>
+          </nav>
         </div>
       </div>
-      <!--pure footer-->
-      <div class="bg-white border-t border-[#20484F1A] dark:border-white dark:bg-[#181C14] dark:text-white">
-        <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row justify-center">
-          <p class="text-sm text-center py-2 transition-all duration-300 cursor-pointer:scal">&copy; Copyright 2022
-            Creatives For You LTD</p>
-        </div>
+    </div>
+    <!--pure footer-->
+    <div class="bg-white border-t border-[#20484F1A] dark:border-white dark:bg-[#181C14] dark:text-white">
+      <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row justify-center">
+        <p class="text-sm text-center py-2 transition-all duration-300 cursor-pointer:scal">&copy; Copyright 2022
+          Creatives For You LTD</p>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-
+ 
     <script>
       const htmlTag =document.getElementById("htmlTag");
       document.getElementById("switch").addEventListener("click", function () {
         htmlTag.classList.toggle("dark");
       });
     </script>
+
+</body>
+</html>
+
 
 
 </body>
